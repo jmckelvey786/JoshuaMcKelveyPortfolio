@@ -7,21 +7,22 @@ import Github from "../assets/icons/github";
 
 const Footer = ()=> {
     return(
-        <div className="visual-aid-border padding-20px">
-            <h2>Footer Div</h2>
+        <div className="flex justify-content-center margin-bottom">
+        <div className="border-box-shadow-inverse padding-10px width-75 gradient border-radius-20">
             <footer>
-                <ul className="visual-aid-border flex justify-content-space-between list-style-type-none padding-20px">
+                <ul className="border-box-shadow-inverse flex space-around list-style-type-none padding-10px border-radius-20">
                     <li className="">
-                            <Github/>
+                        <Github/>
                     </li>
                     <li>
-                            <LinkedIn/>
+                        <LinkedIn/>
                     </li>
                     <li>
                         <Facebook/>
                     </li>
                 </ul>
             </footer>
+        </div>
         </div>
     )
 };

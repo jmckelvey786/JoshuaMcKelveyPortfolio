@@ -1,3 +1,6 @@
+*{
+    font-family: 'Montserrat', sans-serif;
+}
 .visual-aid-border{
     border: 2px solid green;
 }
@@ -6,12 +9,20 @@
     padding: 10px;
 }
 
+.padding-10px-left{
+    padding-left: 10px;
+}
+.padding-5px{
+    padding: 5px;
+}
+
 .padding-20px{
     padding: 20px;
 }
 
 .flex {
     display: flex;
+    flex-wrap: wrap;
 }
 
 .justify-content-center {
@@ -26,6 +37,10 @@
     align-items: center;
 }
 
+.align-items-left {
+    align-items: flex-start;
+}
+
 .text-decoration-none {
     text-decoration: none;
 }
@@ -37,4 +52,151 @@
 .max-width-200px{
     max-width: 200px;
 
+}
+
+.max-width-400px{
+    max-width: 400px;
+
+}
+
+.border-box-shadow{
+    box-shadow: 2px 2px 2px 2px rgb(64, 64, 64);
+}
+
+.border-box-shadow-inset{
+    box-shadow: inset 1px 1px 1px 1px rgb(64, 64, 64);
+}
+.border-box-shadow-inset4th{
+    box-shadow: inset .25px .25px .25px .25px rgb(64, 64, 64);
+}
+.border-box-shadow-inset2{
+    box-shadow: inset 2px 2px 2px 2px rgb(64, 64, 64);
+}
+
+.border-box-shadow-inverse{
+    box-shadow: -2px -2px 2px 2px rgb(64, 64, 64);
+}
+
+.margin-5px{
+    margin: 5px;
+}
+.margin-10px{
+    margin: 10px;
+}
+.margin-20px{
+    margin: 20px;
+}
+
+.width-100{
+    width: 100%;
+}
+
+.flex-column{
+    flex-direction: column;
+}
+
+.flex-row{
+    flex-direction: row;
+}
+
+.space-around {
+    justify-content: space-evenly;
+}
+
+.text-align{
+    text-align: center;
+}
+
+.width-75{
+    width: 90%;
+}
+.width-95{
+    width: 95%;
+}
+
+.margin-bottom{
+    margin-bottom: 10px;
+}
+
+.bg-color-light-pink {
+    background-color: #F7F7F9;
+}
+
+.bg-color-light-green {
+    background-color: #41E2BA;
+}
+.bg-color-light-peach {
+    background-color: #f5e963;
+}
+
+.bg-color-light-cadet {
+    background-color: #2B2D42;
+}
+
+.color-white{
+    color:whitesmoke;
+}
+
+.bg-color-orange {
+    /* background-color: #E86A92; */
+    background-color: whitesmoke;
+}
+
+.border-radius-20{
+    border-radius: 20px;
+}
+
+.border {
+    border: 2px solid black;
+}
+
+.projectDiv:hover {
+    padding-right: 20px;
+    padding-left: 20px;
+}
+
+.hiddenpics{
+    max-width: 200px;
+    margin: 5px;
+    padding: 5px;
+}
+
+.text-shadow {
+    text-shadow: 1px 1px 1px black;
+}
+
+.gradient{
+    background-image: linear-gradient(to right, #41E2BA , #c3dfd8);
+}
+
+.gradient2{
+    background-image: linear-gradient(to right, #f5e963 , whitesmoke);
+}
+
+.navlinks:hover{
+    text-shadow: 1px 1px 1px whitesmoke;
+}
+
+.input:hover {
+    box-shadow: .5px .5px .5px .5px whitesmoke;
+}
+
+.btn{
+    border-radius: 25px;
+    padding: 10px;
+    width: 25%;
+    box-shadow: 1px 1px 1px 1px black;
+    margin: 10px;
+    background-color: #2B2D42;
+    color: whitesmoke;
+}
+
+.btn:hover {
+    border-radius: 25px;
+    padding: 10px;
+    width: 30%;
+    box-shadow: 1px 1px 1px 1px black;
+    margin: 10px;
+    background-color: aquamarine;
+    color: #2B2D42;
 }

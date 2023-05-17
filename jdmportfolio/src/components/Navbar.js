@@ -6,22 +6,24 @@ import '../styles/navbar.css';
 const Navbar = () => {
     const[selected, setSelect] = useState("home");
     return (
-        <div className='visual-aid-border padding-20px'>
-            <h1>Nav Div</h1>
-            <nav className='visual-aid-border padding-10px flex justify-content-space-between align-items'>
-                <Link className="text-decoration-none" to="/about" onClick={() => setSelect("about")}>
-                    About
+        <div className='flex justify-content-center padding-10px'>
+        <div className='border-box-shadow padding-20px gradient border-radius-20 width-95'>
+            <h1 className='text-shadow'>Joshua Duncan McKelvey</h1>
+            <nav className='border-box-shadow padding-10px flex space-around align-items border-radius-20 bg-color-light-cadet'>
+                <Link className="text-decoration-none color-white" to="/about" onClick={() => setSelect("about")}>
+                    <h2 className='navlinks'>About</h2>
                 </Link>
-                <Link className="text-decoration-none" to="/projects" onClick={() => setSelect("projects")}>
-                    Projects
+                <Link className="text-decoration-none color-white" to="/projects" onClick={() => setSelect("projects")}>
+                    <h2 className='navlinks'>Projects</h2>
                 </Link>
-                <Link className="text-decoration-none" to="/contact" onClick={() => setSelect("contact")}>
-                    Contact
+                <Link className="text-decoration-none color-white" to="/contact" onClick={() => setSelect("contact")}>
+                    <h2 className='navlinks'>Contact</h2>
                 </Link>
-                <Link className="text-decoration-none" to="/resume" onClick={() => setSelect("resume")}>
-                    Resume
+                <Link className="text-decoration-none color-white" to="/resume" onClick={() => setSelect("resume")}>
+                    <h2 className='navlinks'>Resume</h2>
                 </Link>
             </nav>
+        </div>
         </div>
     );
 }

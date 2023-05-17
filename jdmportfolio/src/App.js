@@ -7,11 +7,12 @@ import About from './components/About';
 import Contact from './components/Contact';
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import Resume from './components/Resume';
+import "./styles/navbar.css";
 
 function App() {
   return (
     <Router>
-      <div>
+      <div className='bg-color-light-pink'>
         <Navbar></Navbar>
           <Routes>
              <Route path="/" element={<About />} />
