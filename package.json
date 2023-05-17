@@ -1,0 +1,19 @@
+{
+  "name": "joshuamckelveyportfolio",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jmckelvey786/JoshuaMcKelveyPortfolio.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jmckelvey786/JoshuaMcKelveyPortfolio/issues"
+  },
+  "homepage": "https://github.com/jmckelvey786/JoshuaMcKelveyPortfolio#readme"
+}
