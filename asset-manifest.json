@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/JoshuaMcKelveyPortfolio/static/css/main.8f6b2d90.css",
+    "main.js": "/JoshuaMcKelveyPortfolio/static/js/main.c2cf3a2f.js",
+    "static/js/787.b33f747a.chunk.js": "/JoshuaMcKelveyPortfolio/static/js/787.b33f747a.chunk.js",
+    "static/media/profile.jpg": "/JoshuaMcKelveyPortfolio/static/media/profile.4b277a1c2c3aa5b002e8.jpg",
+    "static/media/food.jpg": "/JoshuaMcKelveyPortfolio/static/media/food.08ba4da00a78ca121a7e.jpg",
+    "static/media/launch.png": "/JoshuaMcKelveyPortfolio/static/media/launch.9b65b779be033fc335c5.png",
+    "static/media/pantry.png": "/JoshuaMcKelveyPortfolio/static/media/pantry.1c17d6b19a9a11c8d35a.png",
+    "static/media/JDMResume2023.docx": "/JoshuaMcKelveyPortfolio/static/media/JDMResume2023.b93c2836fa75b00148df.docx",
+    "static/media/logo.svg": "/JoshuaMcKelveyPortfolio/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/JoshuaMcKelveyPortfolio/index.html",
+    "main.8f6b2d90.css.map": "/JoshuaMcKelveyPortfolio/static/css/main.8f6b2d90.css.map",
+    "main.c2cf3a2f.js.map": "/JoshuaMcKelveyPortfolio/static/js/main.c2cf3a2f.js.map",
+    "787.b33f747a.chunk.js.map": "/JoshuaMcKelveyPortfolio/static/js/787.b33f747a.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.8f6b2d90.css",
+    "static/js/main.c2cf3a2f.js"
+  ]
+}
